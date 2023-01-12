@@ -1,0 +1,61 @@
+[
+    {        
+        "title": "ToYoTa Band Collection",
+        "img":"https://stimg.cardekho.com/images/carexteriorimages/930x620/Toyota/Innova-Crysta/8105/1606215226663/front-view-118.jpg?tr=w-375",
+        "details": "Toyota currently produces fourteen different models of cars. These cars include popular models such as the Toyota Camry, the Toyota Prius, the Toyota Avalon, and the Toyota Corolla, as well as numerous other models.",    
+        "name": "Toyota Avalon",
+        "location": "23, johnshon road",
+        "resalePrice": "$ 30000",
+        "originalPrice": "$ 50000",
+        "use": "1 years"               
+    },
+    {
+        "title": "BMW Band Collection",
+        "img":"https://mysterio.yahoo.com/mysterio/api/683CB39BAE1124B4DDE71B86C192066307BDCAE7BD701EE531883FCD3B0C8A9B/autoblog/resizefill_w1200_h720;quality_85;format_webp;cc_31536000;/https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/800x450/format/jpg/quality/85/http://o.aolcdn.com/dims-shared/dims3/GLOB/crop/1280x849+0+0/resize/628x417!/format/jpg/quality/85/http://o.aolcdn.com/hss/storage/midas/24729055c64f0aedd0bf59f5d225d289/201201895/01-2015-bmw-i8-fd-1.jpg",
+        "details":"The acronym BMW stands for Bayerische Motoren Werke GmbH, which roughly translates to the Bavarian Engine Works Company. The name harks back to the company's origin in the German state of Bavaria. It also indicates BMW's original product range: engines for various applications.",             
+        "name": "3 Series Gran Limousine",               
+        "location": "23, johnshon road",
+        "resalePrice": "$ 30000",
+        "originalPrice": "$ 50000",
+        "use": "1 years"
+     },
+    {
+        "title": "Tesla Band Collection",
+        "img":"https://electrek.co/wp-content/uploads/sites/3/2021/05/Tesla-Logo-Hero.jpg?quality=82&strip=all&w=1024",
+        "details": "According to Elon Musk on Twitter, Tesla car batteries are supposed to technically last for 300,000 to 500,000 miles, which is 1,500 battery cycles. That's between 22 and 37 years for the average car driver, who, according to the Department of Transportation, drives about 13,500 miles per year.",    
+        "name": "Tesla Model S",
+        "location": "23, johnshon road",
+        "resalePrice": "$ 30000",
+        "originalPrice": "$ 50000",
+        "use": "1 years"          
+    },
+    {
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhev2XFqR2YGKgI4ERUTNjewtk-lOGplFMCw&usqp=CAU",
+        "details": "Toyota currently produces fourteen different models of cars. These cars include popular models such as the Toyota Camry, the Toyota Prius, the Toyota Avalon, and the Toyota Corolla, as well as numerous other models.",    
+        "name": "Toyota Avalon",
+        "location": "11,Mirpur",
+        "resalePrice": "$ 35000",
+        "originalPrice": "$ 55000",
+        "use": "3 years"  
+    },
+
+    {
+        "img":"https://stimg.cardekho.com/images/carexteriorimages/930x620/BMW/BMW-X7/7028/1564040002009/front-left-side-47.jpg",
+        "details": "The acronym BMW stands for Bayerische Motoren Werke GmbH, which roughly translates to the Bavarian Engine Works Company. The name harks back to the company's origin in the German state of Bavaria. It also indicates BMW's original product range: engines for various applications.",    
+        "name": "BMW X7 Review",
+        "location": "11,Rampura",
+        "resalePrice": "$ 55000",
+        "originalPrice": "$ 70000",
+        "use": "2 years"  
+    },
+
+    {
+        "img":"https://tesla-cdn.thron.com/delivery/public/image/tesla/8bdb0faa-e77a-4072-aabd-0bb2e0a2454e/bvlatuR/std/1200x628/Model-Y-Social-Global?quality=auto-medium&format=auto",
+        "details": "According to Elon Musk on Twitter, Tesla car batteries are supposed to technically last for 300,000 to 500,000 miles, which is 1,500 battery cycles. That's between 22 and 37 years for the average car driver, who, according to the Department of Transportation, drives about 13,500 miles per year",    
+        "name": "Tesla MOdel Y",
+        "location": "11,Gulshan-2",
+        "resalePrice": "$ 77500",
+        "originalPrice": "$ 155000",
+        "use": "1 years"  
+    }
+]

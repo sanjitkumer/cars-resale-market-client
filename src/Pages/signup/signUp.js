@@ -1,10 +1,10 @@
-import { success } from 'daisyui/src/colors';
+// import { success } from 'daisyui/src/colors';
 import React, { useContext, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import toast from 'react-hot-toast';
 import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthProvider';
-// import useToken from '../../hooks/useToken';
+import useToken from '../../hooks/useToken';
 
 const SignUp = () => {
     const {register, formState:{ errors}, handleSubmit} = useForm();
@@ -12,12 +12,12 @@ const SignUp = () => {
     const [signUpError, setSignUpError] = useState('');
 
     const [createUserEmail, setCreateUserEmail] = useState('')
-    // const [token] = useToken(createUserEmail);
+    const [token] = useToken(createUserEmail);
     const navigate = useNavigate();
 
-    // if(token){
-    //     navigate('/');
-    // }
+    if(token){
+        navigate('/');
+    }
 
     const handleSignUp = (data ) =>{
         // console.log(data);
@@ -34,7 +34,7 @@ const SignUp = () => {
             updateUser(userInfo)
             .then(() =>{
                 saveUser(data.name, data.email);
-                navigate('/');
+                // navigate('/');
             })
             .catch(err => console.log(err));
         })
@@ -55,21 +55,24 @@ const SignUp = () => {
         })
         .then(res => res.json())
         .then(data =>{
+            // getUserToken(email);
             // console.log( 'save user', data);
+            // navigate('/');
+
             setCreateUserEmail(email);
            
         })     
     }
 
     // const getUserToken = email =>{
-        // fetch(`http://localhost:5000/jwt?email=${email}`)
-        // .then(res => res.json())
-        // .then(data => {
-        //     if(data.accessToken){
-        //         localStorage.setItem('accessToken', data.accessToken);
-        //         navigate('/');
-        //     }
-        // })
+    //     fetch(`http://localhost:5000/jwt?email=${email}`)
+    //     .then(res => res.json())
+    //     .then(data => {
+    //         if(data.accessToken){
+    //             localStorage.setItem('accessToken', data.accessToken);
+    //             // navigate('/');
+    //         }
+    //     })
     // }
 
     return (

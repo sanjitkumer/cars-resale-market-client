@@ -1,8 +1,12 @@
+* adminEmail: bab@o.com
+* adminPassword: BS234$
+
 * use css framework tailwind, Daisyui, 
 * create a header, banner section 
 * Services sector add 3 types of cars 
 * Added Dashboard 
 * use Authentication system
+
 
 # Getting Started with Create React App
 

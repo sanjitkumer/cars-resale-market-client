@@ -22,7 +22,7 @@ const CarBookingModal = () => {
             phone,
         }
 
-        fetch('http://localhost:5000/carBookings', {
+        fetch('https://cars-resale-market-server.vercel.app/carBookings', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

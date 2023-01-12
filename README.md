@@ -1,3 +1,9 @@
+* use css framework tailwind, Daisyui, 
+* create a header, banner section 
+* Services sector add 3 types of cars 
+* Added Dashboard 
+* use Authentication system
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

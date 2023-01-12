@@ -46,7 +46,7 @@ const SignUp = () => {
 
     const saveUser = (name, email) => {
         const user ={name, email};
-        fetch('http://localhost:5000/users', {
+        fetch('https://cars-resale-market-server.vercel.app/users', {
             method: 'POST', 
             headers: {
                 'content-type': 'application/json'
@@ -65,7 +65,7 @@ const SignUp = () => {
     }
 
     // const getUserToken = email =>{
-    //     fetch(`http://localhost:5000/jwt?email=${email}`)
+    //     fetch(`https://cars-resale-market-server.vercel.app/jwt?email=${email}`)
     //     .then(res => res.json())
     //     .then(data => {
     //         if(data.accessToken){
